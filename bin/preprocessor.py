@@ -7,7 +7,7 @@ class ProcessDoc:
     def __init__(self):
         pass
 
-    def removeSpclChar(self,text):
+    def removeSpclChar(self, text):
         """
         Remove special characters
 
@@ -16,9 +16,10 @@ class ProcessDoc:
         Output:
             modifiedText: string
         """
-        pass
+        filteredText = re.sub(',|;|#|$', text, '')
+        return filteredText
 
-    def tokenizerArticle(self):
-        pass
+    def convertToLower(self, text):
+        return text.lower()
 
 processObj = ProcessDoc()
