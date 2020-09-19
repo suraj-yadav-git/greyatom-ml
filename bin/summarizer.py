@@ -52,7 +52,9 @@ class SummarizeDoc:
         return summary
 
 """
-Use:
+how to use:
+
+from summarizer import SummarizeDoc
 summarizeObj = SummarizeDoc()
 summary = summarizeObj.findSummary()
 """
