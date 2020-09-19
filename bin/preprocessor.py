@@ -4,7 +4,10 @@ class ProcessDoc:
     """
     Module for preprocessing articles
     """
-    def removeSpclChar(text):
+    def __init__(self):
+        pass
+
+    def removeSpclChar(self,text):
         """
         Remove special characters
 
@@ -15,5 +18,7 @@ class ProcessDoc:
         """
         pass
 
-    def tokenizerArticle():
+    def tokenizerArticle(self):
         pass
+
+processObj = ProcessDoc()
