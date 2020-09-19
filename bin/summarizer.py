@@ -51,5 +51,8 @@ class SummarizeDoc:
         summary = ' '.join(allSentences)
         return summary
 
+"""
+Use:
 summarizeObj = SummarizeDoc()
 summary = summarizeObj.findSummary()
+"""
