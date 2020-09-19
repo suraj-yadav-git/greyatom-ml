@@ -32,7 +32,7 @@ class SummarizeDoc:
         topSentences = [sentences[i] for i in topIdx]
         return topSentences
 
-    def fundSummary(self):
+    def findSummary(self):
         filePath = self.config['data_path']['train_data']
         text = self.loadDoc(filePath)
         sentences = self.splitSentences(text)
@@ -46,3 +46,4 @@ class SummarizeDoc:
 
 
 summarizeObj = SummarizeDoc()
+summarizeObj.findSummary()
