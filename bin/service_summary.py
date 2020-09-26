@@ -13,5 +13,6 @@ def getSummary():
     summarizeObj = SummarizeDoc()
     summary = summarizeObj.findSummary()
     return summary
-
-app.run(host='localhost', port = 8012)
+    
+#app.run(host='localhost', port = 8012)
+app.run(host='0.0.0.0', port = 80)
