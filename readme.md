@@ -94,9 +94,9 @@ CMD [Any command which needs to executed during run time]
 
 sudo docker build -t dummyflaskimage .
 
-sudo docker rm <containerId/containerName>
+sudo docker rm containerId/containerName
 
-sudo docker rmi image <imagename>
+sudo docker rmi image imagename
 
 Push docker images into dockerhub
 sudo docker login
@@ -104,4 +104,4 @@ sudo docker tag gaflasksummary saz2nitk/gaflasksummary:0.1
 sudo docker push saz2nitk/gaflasksummary:0.1
 
 expose container port : 
-sudo docker run --name <container-name> -p 80:80 <image-name>
+sudo docker run --name container-name -p 80:80 image-name
