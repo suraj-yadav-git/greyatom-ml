@@ -3,6 +3,5 @@ pandas
 sklearn
 scipy
 matplotlib
-re
 flask
 yaml
