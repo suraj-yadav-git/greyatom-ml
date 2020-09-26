@@ -102,3 +102,6 @@ Push docker images into dockerhub
 sudo docker login
 sudo docker tag gaflasksummary saz2nitk/gaflasksummary:0.1
 sudo docker push saz2nitk/gaflasksummary:0.1
+
+expose container port : 
+sudo docker run --name <container-name> -p 80:80 <image-name>
