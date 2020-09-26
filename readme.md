@@ -93,3 +93,12 @@ RUN [Any command which needs to executed only once (during build time) i.e. inst
 CMD [Any command which needs to executed during run time]
 
 sudo docker build -t dummyflaskimage .
+
+sudo docker rm <containerId/containerName>
+
+sudo docker rmi image <imagename>
+
+Push docker images into dockerhub
+sudo docker login
+sudo docker tag gaflasksummary saz2nitk/gaflasksummary:0.1
+sudo docker push saz2nitk/gaflasksummary:0.1
