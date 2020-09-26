@@ -12,5 +12,5 @@ WORKDIR greyatom-ml
 RUN pip3 install -r requirements.txt
 ENV JAVA_HOME /usr/local
 COPY dummy.txt surajddr/dummy.txt
-WORKDIR greyatom-ml/bin
+WORKDIR bin
 CMD ["python3","service_summary.py"]
