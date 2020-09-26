@@ -4,4 +4,4 @@ sklearn
 scipy
 matplotlib
 flask
-yaml
+pyyaml
